@@ -1,0 +1,374 @@
+/* --------M A R G I N--------- */
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ¬¬¬¬¬¬ HEADER ¬¬¬¬¬----------------------------¬¬¬¬ */
+header > figure {
+    float: left;
+    width: 33%;
+    padding: 10px 0px 10px 00px;
+    /* Topo, Direita, Baixo, Esquerda */
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    padding: 10px 0px 10px 00px;
+    /* Topo, Direita, Baixo, Esquerda */
+}
+
+li {
+    list-style: none;
+    background-color: #ffffff;
+    /* Topo, Direita, Baixo, Esquerda */
+}
+
+/* ¬¬¬¬¬¬SECTION 1 ¬¬¬¬¬--------------------------¬¬¬¬ */
+#section1 {    
+    background-image: url(../img/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 350px;
+    /* Topo, Direita, Baixo, Esquerda */
+}
+
+#titulo {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 200;    
+}
+
+#bot-1 {
+    /* SOLICITE UM ORÇAMENTO */
+    float: left;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(46, 117, 203);
+    border-radius: 4px;
+    border-color: rgb(46, 117, 203);
+    padding: 7px 25px;
+    /* Topo, Direita, Baixo, Esquerda */
+}
+
+h2 {
+    text-align: center;
+}
+
+/* ¬¬¬¬¬¬SECTION 2 ¬¬¬¬¬--------------------------¬¬¬¬ */
+/* #section2 > article,
+#section2 > figure {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+    padding: 50px 0px;
+    /* Topo, Direita, Baixo, Esquerda */
+/* } */ 
+
+/* ¬¬¬¬¬¬SECTION 3 ¬¬¬¬¬--------------------------¬¬¬¬ */
+/* #section3 > figure {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+    /* Topo, Direita, Baixo, Esquerda */
+/* } */ 
+
+/* ¬¬¬¬¬¬SECTION 4 ¬¬¬¬¬--------------------------¬¬¬¬ */
+/* #section4 > article {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+    /* Topo, Direita, Baixo, Esquerda */
+/* } */ 
+
+#secbuton {
+    text-align: center;
+}
+
+#bot-2 {
+    font-size: 16px;
+    color: rgb(46, 117, 203);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-color: cornflowerblue;
+    padding: 7px 25px;
+    /* Topo, Direita, Baixo, Esquerda */
+}
+
+hr {
+    margin: 30px;
+    border-color: rgb(255, 255, 255);    
+}
+
+/* ¬¬¬¬¬¬SECTION 5 ¬¬¬¬¬--------------------------¬¬¬¬ */
+#section5 {
+    background-color: #1d3c4e;
+}
+
+/* #section5 > article {
+    color: aliceblue;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+    padding: 50px 0px;
+    /* Topo, Direita, Baixo, Esquerda */
+/* } */ 
+
+/* ¬¬¬¬¬¬SECTION 6 ¬¬¬¬¬--------------------------¬¬¬¬ */
+/* #section6 > article {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+    /* Topo, Direita, Baixo, Esquerda */
+/* } */ 
+
+#bot-3 {
+    /* LER MAIS */ 
+    float: left;
+    font-size: 16px;
+    color: rgb(84, 88, 92);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-color: gray;
+    padding: 7px 25px;
+    /* Topo, Direita, Baixo, Esquerda */
+}
+
+/* ¬¬¬¬¬¬SECTION 7 ¬¬¬¬¬----------------------------¬¬¬¬ */
+#section7 {
+    background-color: #353a3e;
+}
+
+/* #section7 > article > figure {
+    float: left;
+    margin: 0px 0px 0px 170px;
+    /* Topo, Direita, Baixo, Esquerda */
+/* } */ 
+
+/* #section7 > article {
+    color: white;
+    width: 33%;
+    display: inline-block;
+    padding: 0px 0px 20px 0px;
+    /* Topo, Direita, Baixo, Esquerda */
+/* } */ 
+
+#sec1 {
+    background-color: #353a3e;
+    padding: 1px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+/* ¬¬¬¬¬¬ FOOTER ¬¬¬¬¬----------------------------¬¬¬¬ */
+footer {
+    color: #d3d3d3;
+    font-size: 20px;
+    padding: 20px 0px 50px 50px;
+    /* Topo, Direita, Baixo, Esquerda */
+}
+
+footer > figure {
+    width: 5%;
+    float: right;
+    /* Topo, Direita, Baixo, Esquerda */
+}
+
+/* --\\||||//-- */
+
+/* ----------- Desktop Large ----------- */
+@media (min-width: 1200px) {
+    /* Header - Ajuste da figura no cabeçalho para telas grandes */
+    header > figure {
+        padding: 20px 25px 7px 150px;
+    }
+    
+    /* Header - Estilos de navegação para telas grandes */
+    /* header > nav > ul > li { */
+        /* padding: 50px;
+    } */
+    /* Section 1 - Ajuste do padding e fonte do título para telas grandes */
+    #section1 {
+        padding: 350px;
+    }
+
+    #titulo {
+        font-size: 50px;
+    }
+    /* Section 2 - Ajuste de margens e padding em telas grandes */
+    #section2 > article {
+        margin: 40px 0px 30px 0px;
+        padding: 50px 0px;
+    }
+
+    /* section2 */
+    * #section2 > article,
+    #section2 > figure {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+    padding: 50px 0px;
+    }
+
+    /* section3 */
+    #section3 > figure {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+        /* Topo, Direita, Baixo, Esquerda */
+    }
+    /* section4 */
+    #section4 > article {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+        /* Topo, Direita, Baixo, Esquerda */
+    }
+    /* section5 */
+    #section5 > article {
+    color: aliceblue;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+    padding: 50px 0px;
+        /* Topo, Direita, Baixo, Esquerda */
+    }
+    /* section6 */
+    #section6 > article {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0px 30px 0px;
+        /* Topo, Direita, Baixo, Esquerda */
+    }
+    /* section7 */
+    #section7 > article {
+    color: white;
+    width: 33%;
+    display: inline-block;
+    padding: 0px 0px 20px 0px;
+        /* Topo, Direita, Baixo, Esquerda */
+    }
+    #section7 > article > figure {
+    float: left;
+    margin: 0px 0px 0px 170px;
+        /* Topo, Direita, Baixo, Esquerda */        
+    }
+
+}
+
+/* --\\||||//-- */
+
+/* --\\||||//-- */
+
+/* ----------- Tablet & Mobile ----------- */
+@media (max-width: 767px) {
+    /* Header - Ajuste do tamanho da logo para telas pequenas */
+    header > figure img {
+    width: 120px; /* Reduz o tamanho da logo */
+    height: auto;
+    }
+    
+    /* Header - Navegação stack para telas pequenas */
+    /* header > nav > ul > li {
+        display: block;
+        padding: 20px;
+    } */
+    /* Section 1 - Redução do padding e fonte do título para telas pequenas */
+    #section1 {
+        /* padding: 200px 20px; */
+    display:block;
+    text-align:center;
+    display: center;
+    }
+    
+
+    #titulo {
+    font-size: 30px;
+    text-align: center; /* Centralizar o texto em telas pequenas */
+    }
+    /* Section 2 - Reduzir as margens e padding em telas pequenas */
+    #section2 > article {
+    margin: 20px 0px;
+    padding: 20px 0px;
+    }
+    
+    /* Section 2 - Ajuste do tamanho das imagens para telas pequenas */
+    #section2 > article img {
+    width: 100px;
+    height: auto;
+    }
+    /* Footer - Centralização do texto e ajuste de padding para telas pequenas */
+    footer {
+    text-align: center;
+    padding: 20px 10px;
+    }
+
+    /* Footer - Ajuste da figura no rodapé para telas pequenas */
+    footer > figure {
+    width: 50px;
+    float: none;
+    margin: 0 auto; /* Centralizar a imagem */
+    }
+    
+    /* section2 */
+    * #section2 > article,
+    #section2 > figure {
+    text-align:center;
+    display:block;
+    justify-content: center;
+    }
+
+    /* section3 */
+    #section3 > figure {
+    text-align:center;
+    display:block;
+    justify-content: center;
+    }
+
+    /* section4 */
+    #section4 > article {
+    text-align:center;
+    display:block;
+    justify-content: center;
+    }
+    /* section5 */
+    #section5 > article {
+    text-align:center;
+    display:block;
+    justify-content: center;
+    }
+    /* section6 */
+    #section6 > article {
+    text-align:center;
+    display:block;
+    justify-content: center;
+    }
+
+    /* section7 */
+    #section7 > article {
+    text-align:center;
+    display:block;
+    justify-content: center;
+    }
+    #section7 > article > figure {
+    display:block;
+    justify-content: center;      
+    }
+
+}
+
+
+
+
+
